@@ -12,12 +12,14 @@ class myapp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body:SafeArea(
           child: Column(
-            verticalDirection: VerticalDirection.up,
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            // mainAxisSize: MainAxisSize.min,
+            // verticalDirection: VerticalDirection.up,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                width: 200.0,
-                height: 200.0,
+                width: 100,
+                height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 100,left: 200),
                 // margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
@@ -28,11 +30,11 @@ class myapp extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(60, 30, 60, 30),
                 color: Colors.white,
 
-                child: Text("hi najma",),
+                child: Text("hi container1",),
               ),
               Container(
-                width: 200.0,
-                height: 200.0,
+                width: double.infinity,
+                height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 100,left: 200),
                 // margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
@@ -43,11 +45,11 @@ class myapp extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(60, 30, 60, 30),
                 color: Colors.blue,
 
-                child: Text("hi najma",),
+                child: Text("hi container2",),
               ),
               Container(
-                width: 200.0,
-                height: 200.0,
+                width: 100,
+                height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 50,),
                 // margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
@@ -58,10 +60,8 @@ class myapp extends StatelessWidget {
                 padding: EdgeInsets.fromLTRB(60, 30, 60, 30),
                 color: Colors.red,
 
-                child: Text("hi najma",),
+                child: Text("hi container3",),
               ),
-
-
 
             ],
           ),
