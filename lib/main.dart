@@ -11,14 +11,14 @@ class myapp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body:SafeArea(
-          child: Column(
+          child: Row(
             // mainAxisSize: MainAxisSize.min,
             // verticalDirection: VerticalDirection.up,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             // mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                width: 100,
+                // width: 100,
                 height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 100,left: 200),
@@ -34,7 +34,7 @@ class myapp extends StatelessWidget {
               ),
               SizedBox(height: 20.0,),
               Container(
-                width: double.infinity,
+                // width: double.infinity,
                 height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 100,left: 200),
@@ -49,7 +49,7 @@ class myapp extends StatelessWidget {
                 child: Text("hi container2",),
               ),
               Container(
-                width: 100,
+                // width: 100,
                 height: 100.0,
                 // margin: EdgeInsets.all(200),
                 // margin: EdgeInsets.only(top: 50,),
@@ -65,9 +65,9 @@ class myapp extends StatelessWidget {
               ),
 
             ],
-          ),
         ),
       ),
+    )
     );
   }
 }
