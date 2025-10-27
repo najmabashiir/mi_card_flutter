@@ -17,7 +17,8 @@ class myapp extends StatelessWidget {
             // margin: EdgeInsets.all(200),
             // margin: EdgeInsets.only(top: 100,left: 200),
 
-            margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
+            // margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
+            // margin: EdgeInsets.fromLTRB(200,300,400,100),
             color: Colors.white,
             child: Text("hi najma"),
           ),
