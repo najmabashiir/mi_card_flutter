@@ -32,6 +32,7 @@ class myapp extends StatelessWidget {
 
                 child: Text("hi container1",),
               ),
+              SizedBox(height: 20.0,),
               Container(
                 width: double.infinity,
                 height: 100.0,
