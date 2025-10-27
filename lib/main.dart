@@ -12,6 +12,7 @@ class myapp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body:SafeArea(
           child: Column(
+            verticalDirection: VerticalDirection.up,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
