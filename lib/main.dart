@@ -16,11 +16,15 @@ class myapp extends StatelessWidget {
             height: 200.0,
             // margin: EdgeInsets.all(200),
             // margin: EdgeInsets.only(top: 100,left: 200),
-
             // margin: EdgeInsets.symmetric(horizontal: 200,vertical: 200) ,
-            // margin: EdgeInsets.fromLTRB(200,300,400,100),
+            margin: EdgeInsets.fromLTRB(100,100,100,100),
+            // padding: EdgeInsets.all(50),
+            // padding: EdgeInsets.symmetric(vertical: 12,horizontal: 30),
+            // padding: EdgeInsets.only(top: 30 ,left: 30),
+            padding: EdgeInsets.fromLTRB(60, 30, 60, 30),
             color: Colors.white,
-            child: Text("hi najma"),
+
+            child: Text("hi najma",),
           ),
         ),
       ),
