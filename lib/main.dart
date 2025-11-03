@@ -11,7 +11,7 @@ class myapp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body:SafeArea(
-          child: Row(
+          child: Column(
             // mainAxisSize: MainAxisSize.min,
             // verticalDirection: VerticalDirection.up,
         //     crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -70,43 +70,52 @@ class myapp extends StatelessWidget {
         //       ),
         //
         //     ],
-        // ),
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Container(
-            width: 100,
-            height: double.infinity,
-            color: Colors.red,
-          ),
-          SizedBox(
-            width: 70,
-          ),
-          Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.yellow,
-              ),
-              Container(
-                width: 100,
-                height: 100,
-                color: Colors.green,
-              )
-            ],
-          ),
-  SizedBox(
-    width: 70,
-  ),
-          Container(
-            width: 100,
-            height: double.infinity,
-            color: Colors.blue,
+  //       // ),
+  //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+  //       children: [
+  //         Container(
+  //           width: 100,
+  //           height: double.infinity,
+  //           color: Colors.red,
+  //         ),
+  //         SizedBox(
+  //           width: 70,
+  //         ),
+  //         Column(
+  //           mainAxisAlignment: MainAxisAlignment.center,
+  //           children: [
+  //             Container(
+  //               width: 100,
+  //               height: 100,
+  //               color: Colors.yellow,
+  //             ),
+  //             Container(
+  //               width: 100,
+  //               height: 100,
+  //               color: Colors.green,
+  //             )
+  //           ],
+  //         ),
+  // SizedBox(
+  //   width: 70,
+  // ),
+  //         Container(
+  //           width: 100,
+  //           height: double.infinity,
+  //           color: Colors.blue,
+  //
+  //         )
+  //
+  //       ],
+  //         )
+                children: [
+                  CircleAvatar(
+                    radius: 50,
+                    backgroundImage: AssetImage('images/najma.png'),
+                  ),
+                ],
 
-          )
 
-        ],
           )
       ),
     ),
