@@ -113,6 +113,13 @@ class myapp extends StatelessWidget {
                     radius: 50,
                     backgroundImage: AssetImage('images/najma.png'),
                   ),
+                  Text("Najma Bashiir",
+                    style: TextStyle(
+                      fontSize: 40.0,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold
+                    ),
+                  )
                 ],
 
 
